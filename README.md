@@ -3,71 +3,158 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-## Scenario 1 – Online Banking System Down (SEV-A)
+## Objective
 
-### Ticket Created – End User (Karen)
+This lab demonstrates real-world help desk workflows including:
 
-<img src="https://i.postimg.cc/G90VHvVT/01-ticket-online-banking-created-karen.png" width="900">
-
----
-
-### Default Properties – Agent (John)
-
-<img src="https://i.postimg.cc/V5ypdXpC/02-ticket-online-banking-default-properties-john.png" width="900">
-
----
-
-### Set SLA to Sev-A (1 Hour, 24/7) – Online Banking Department
-
-<img src="https://i.postimg.cc/gr9Qn3Q6/03-ticket-online-banking-sev-a-online-banking.png" width="900">
+- Ticket creation
+- SLA assignment
+- Department routing
+- Escalation handling
+- Role-based access control
+- Ticket resolution lifecycle
 
 ---
 
-### Ticket Becomes Inaccessible After Escalation
+# Scenario 1 – Online Banking System Down (SEV-A)
 
-<img src="https://i.postimg.cc/Th8FpnFL/04-ticket-online-banking-inaccessible-john.png" width="900">
+## Ticket Created – End User (Karen)
+
+"The entire mobile/online banking system is down."
+
+<img src="https://i.postimg.cc/G90VHvVT/01-ticket-online-banking-created-karen.png" width="500">
 
 ---
 
-### Ticket Resolved – Agent (Jane)
+## Default Ticket Properties – Agent (John)
 
-<img src="https://i.postimg.cc/vDRkc5kn/05-ticket-online-banking-resolved-by-jane.png" width="900">
+Observed:
+- Priority
+- Department
+- SLA
+- Assigned To
+
+<img src="https://i.postimg.cc/V5ypdXpC/02-ticket-online-banking-default-properties-john.png" width="500">
+
+---
+
+## SLA & Department Assignment
+
+Configured:
+- SLA: **Sev-A (1 hour, 24/7)**
+- Department: **Online Banking**
+
+<img src="https://i.postimg.cc/gr9Qn3Q6/03-ticket-online-banking-sev-a-online-banking.png" width="500">
+
+---
+
+## Escalation Behavior
+
+After escalation, the ticket became inaccessible due to permission restrictions tied to department and SLA configuration.
+
+<img src="https://i.postimg.cc/Th8FpnFL/04-ticket-online-banking-inaccessible-john.png" width="500">
+
+Admin access was required to grant visibility.
+
+---
+
+## Ticket Resolution – Agent (Jane)
+
+<img src="https://i.postimg.cc/vDRkc5kn/05-ticket-online-banking-resolved-by-jane.png" width="500">
 
 ---
 
 # Scenario 2 – Adobe Upgrade Request (SEV-B)
 
-### Ticket Created – End User
+## Ticket Created – End User
 
-<img src="https://i.postimg.cc/s1Fqv5qS/06-ticket-adobe-upgrade-created-enduser-ken.png" width="900">
+"Accounting department needs Adobe upgrade, broken."
 
----
-
-### SLA Set to Sev-B (4 Hours, 24/7) – Support Department
-
-<img src="https://i.postimg.cc/J7yhHmv3/07-ticket-adobe-upgrade-sev-b-support.png" width="900">
+<img src="https://i.postimg.cc/s1Fqv5qS/06-ticket-adobe-upgrade-created-enduser-ken.png" width="500">
 
 ---
 
-### Ticket Resolved – Agent (John)
+## SLA & Department Assignment
 
-<img src="https://i.postimg.cc/VsSN01pR/08-ticket-adobe-upgrade-resolved-by-john.png" width="900">
+Configured:
+- SLA: **Sev-B (4 hours, 24/7)**
+- Department: **Support**
 
----
-
-# Key Concepts Demonstrated
-
-- Ticket lifecycle management  
-- SLA prioritization (Sev-A vs Sev-B)  
-- Department routing  
-- Escalation behavior  
-- Permission-based access control  
-- Email notification workflow  
-- Importance of logging all work for metrics and tracking  
+<img src="https://i.postimg.cc/J7yhHmv3/07-ticket-adobe-upgrade-sev-b-support.png" width="500">
 
 ---
 
-# Real-World Application
+## Ticket Resolution – Agent (John)
 
-Tickets can originate from phone, chat, email, web forms, or in-person requests.  
-Even if issues are resolved immediately, tickets should always be created for documentation, performance metrics, and accountability.
+<img src="https://i.postimg.cc/VsSN01pR/08-ticket-adobe-upgrade-resolved-by-john.png" width="500">
+
+---
+
+# Scenario 3 – CFO Laptop Failure (SEV-B)
+
+Ticket:
+"CFO’s laptop will no longer turn on."
+
+Configured:
+- SLA: **Sev-B (4 hours, 24/7)**
+- Department: **Support**
+
+Worked to completion by assigned agent.
+
+---
+
+# Escalation & Permission Control
+
+When tickets were escalated to SEV-A:
+
+- SysAdmins became the final assignment group
+- Tickets became inaccessible without proper permissions
+- Admin panel access was required to modify visibility
+
+This demonstrates role-based access control within ticketing systems.
+
+---
+
+# Email Notification Capability
+
+Most ticketing systems (including osTicket) support automated email notifications.
+
+Each time a ticket is:
+- Updated
+- Assigned
+- Commented on
+- Resolved
+
+The end user receives an email and can respond directly.
+
+---
+
+# Real-World Ticket Intake
+
+Tickets may originate from:
+
+- Phone calls
+- Email
+- Chat applications
+- Web forms
+- In-person requests
+
+Even if an issue is resolved immediately, tickets should always be created for:
+
+- Metrics tracking
+- SLA monitoring
+- Documentation
+- Trend analysis
+
+Everything should be logged.
+
+---
+
+# Technical Skills Reinforced
+
+- Ticket lifecycle management
+- SLA prioritization (Sev-A vs Sev-B)
+- Department routing
+- Escalation handling
+- Permission-based access control
+- Professional documentation wo
