@@ -3,18 +3,25 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-## Objective
+## Project Summary
 
-This lab demonstrates real-world help desk workflows including:
+This project demonstrates ticket lifecycle management using osTicket within a simulated help desk environment. Tickets were created, assigned priorities and SLAs, escalated, and resolved while observing role-based access and notification behavior.
 
-- Ticket creation
-- SLA assignment
-- Department routing
-- Escalation handling
-- Role-based access control
-- Ticket resolution lifecycle
+### Languages Used
+- N/A (Web-based configuration)
 
+### Environments Used
+- Microsoft Azure
+- Windows Server
+- Windows 10
+
+### Technologies / Services Used
+- osTicket
+- Active Directory (integration context)
+- Azure Virtual Machines
 ---
+
+# Demonstration
 
 # Scenario 1 – Online Banking System Down (SEV-A)
 
