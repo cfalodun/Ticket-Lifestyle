@@ -25,23 +25,23 @@ This project demonstrates ticket lifecycle management using osTicket within a si
 
 # Scenario 1 – Online Banking System Down (SEV-A)
 
-## Ticket Created – End User (Karen)
+## Step One: Ticket Created – End User (Karen)
 <img src="https://i.postimg.cc/G90VHvVT/01-ticket-online-banking-created-karen.png" width="500">
 Logged in as the end user Karen and created a new ticket stating that the entire mobile and online banking system was down. The ticket was submitted into the system.
 
-## Default Ticket Properties – Agent (John)
+## Step Two: Default Ticket Properties – Agent (John)
 <img src="https://i.postimg.cc/V5ypdXpC/02-ticket-online-banking-default-properties-john.png" width="500">
 Logged in as Agent John and opened the ticket. Observed the default priority, department, SLA, and assignment settings before making changes.
 
-## SLA & Department Assignment
+## Step Three: SLA & Department Assignment
 <img src="https://i.postimg.cc/gr9Qn3Q6/03-ticket-online-banking-sev-a-online-banking.png" width="500">
 Edited the ticket properties. Set the SLA to Sev-A (1 hour, 24/7) and changed the department to Online Banking, then saved the configuration.
 
-## Escalation Behavior
+## Step Four: Escalation Behavior
 <img src="https://i.postimg.cc/Th8FpnFL/04-ticket-online-banking-inaccessible-john.png" width="500">
 Attempted to access the ticket again as John. Observed that the ticket became inaccessible due to department-based permission restrictions after escalation.
 
-## Ticket Resolution – Agent (Jane)
+## Step Five: Ticket Resolution – Agent (Jane)
 
 <img src="https://i.postimg.cc/vDRkc5kn/05-ticket-online-banking-resolved-by-jane.png" width="500">
 Logged in as Agent Jane. Worked the escalated ticket to completion and marked it as resolved.
@@ -49,14 +49,16 @@ Logged in as Agent Jane. Worked the escalated ticket to completion and marked it
 ---
 
 # Scenario 2 – Adobe Upgrade Request (SEV-B)
-<img src="https://i.postimg.cc/s1Fqv5qS/06-ticket-adobe-upgrade-created-enduser-ken.png" width="500">
-Logged in as the end user and created a ticket stating that the accounting department needed an Adobe upgrade.
 
-## SLA & Department Assignment
+## Step One: Ticket Created- End User (Ken)
+<img src="https://i.postimg.cc/s1Fqv5qS/06-ticket-adobe-upgrade-created-enduser-ken.png" width="500">
+Logged in as the end user Ken and created a ticket stating that the accounting department needed an Adobe upgrade.
+
+## Step Two: SLA & Department Assignment
 <img src="https://i.postimg.cc/J7yhHmv3/07-ticket-adobe-upgrade-sev-b-support.png" width="500">
 Logged in as Agent John. Reviewed default properties and set the SLA to Sev-B (4 hours, 24/7) and assigned the ticket to the Support department.
 
-## Ticket Resolution – Agent (John)
+## Step Three: Ticket Resolution – Agent (John)
 <img src="https://i.postimg.cc/VsSN01pR/08-ticket-adobe-upgrade-resolved-by-john.png" width="500">
 Assigned the ticket to John. Worked the issue to completion and marked the ticket as resolved.
 
