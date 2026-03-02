@@ -27,15 +27,15 @@ This project demonstrates ticket lifecycle management using osTicket within a si
 
 ## Step One: Ticket Created – End User (Karen)
 <img src="https://i.postimg.cc/G90VHvVT/01-ticket-online-banking-created-karen.png" width="500">
-Logged in as the end user Karen and created a new ticket stating that the entire mobile and online banking system was down. The ticket was submitted into the system.
+Logged in End Users osTicket site as the end user Karen and created a new ticket stating that the entire mobile and online banking system was down. The ticket was submitted into the system.
 
 ## Step Two: Default Ticket Properties – Agent (John)
 <img src="https://i.postimg.cc/V5ypdXpC/02-ticket-online-banking-default-properties-john.png" width="500">
-Logged in as Agent John and opened the ticket. Observed the default priority, department, SLA, and assignment settings before making changes.
+Logged in osTicket Admin/Analyst Login Page as Agent John and opened the ticket. Observed the default priority, department, SLA, and assignment settings before making changes.
 
 ## Step Three: SLA & Department Assignment
 <img src="https://i.postimg.cc/gr9Qn3Q6/03-ticket-online-banking-sev-a-online-banking.png" width="500">
-Edited the ticket properties. Set the Priority from Normal to Emergency, SLA to Sev-A (1 hour, 24/7) and changed the department to Online Banking, then saved the configuration.
+Edited the ticket properties. Set the Priority from Normal to Emergency, SLA to Sev-A (1 hour, 24/7) and changed the department to Online Banking, then saved the configuration. Notified end user Karen the state of Banking system.
 
 ## Step Four: Escalation Behavior
 <img src="https://i.postimg.cc/Th8FpnFL/04-ticket-online-banking-inaccessible-john.png" width="500">
