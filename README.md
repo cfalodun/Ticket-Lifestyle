@@ -60,6 +60,6 @@ Logged in as Agent John. Checked in with end user Ken before working ticket. Rev
 
 ## Step Three: Ticket Resolution – Agent (John)
 <img src="https://i.postimg.cc/VsSN01pR/08-ticket-adobe-upgrade-resolved-by-john.png" width="500">
-Assigned the ticket to John. Worked the issue to completion and marked the ticket as resolved before closing.
+Assigned the ticket to John. Followed up with end user Ken. Worked the issue to completion and confirmed the issue as resolved before closing ticket.
 
 ---
