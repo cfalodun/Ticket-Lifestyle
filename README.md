@@ -35,7 +35,7 @@ Logged in as Agent John and opened the ticket. Observed the default priority, de
 
 ## Step Three: SLA & Department Assignment
 <img src="https://i.postimg.cc/gr9Qn3Q6/03-ticket-online-banking-sev-a-online-banking.png" width="500">
-Edited the ticket properties. Set the SLA to Sev-A (1 hour, 24/7) and changed the department to Online Banking, then saved the configuration.
+Edited the ticket properties. Set the Priority from Normal to Emergency, SLA to Sev-A (1 hour, 24/7) and changed the department to Online Banking, then saved the configuration.
 
 ## Step Four: Escalation Behavior
 <img src="https://i.postimg.cc/Th8FpnFL/04-ticket-online-banking-inaccessible-john.png" width="500">
@@ -56,7 +56,7 @@ Logged in as the end user Ken and created a ticket stating that the accounting d
 
 ## Step Two: SLA & Department Assignment
 <img src="https://i.postimg.cc/J7yhHmv3/07-ticket-adobe-upgrade-sev-b-support.png" width="500">
-Logged in as Agent John. Reviewed default properties and set the SLA to Sev-B (4 hours, 24/7) and assigned the ticket to the Support department.
+Logged in as Agent John. Reviewed default properties and set the Priority from Normal to High, SLA to Sev-B (4 hours, 24/7), and assigned the ticket to the Support department.
 
 ## Step Three: Ticket Resolution – Agent (John)
 <img src="https://i.postimg.cc/VsSN01pR/08-ticket-adobe-upgrade-resolved-by-john.png" width="500">
