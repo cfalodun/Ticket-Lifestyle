@@ -44,7 +44,7 @@ Attempted to access the ticket again as John. Observed that the ticket became in
 ## Step Five: Ticket Resolution – Agent (Jane)
 
 <img src="https://i.postimg.cc/vDRkc5kn/05-ticket-online-banking-resolved-by-jane.png" width="500">
-Logged in as Agent Jane. Worked the escalated ticket to completion and marked it as resolved.
+Logged in as Agent Jane. Worked the escalated ticket to completion and marked it as resolved before closing the ticket altogether.
 
 ---
 
@@ -56,10 +56,10 @@ Logged in as the end user Ken and created a ticket stating that the accounting d
 
 ## Step Two: SLA & Department Assignment
 <img src="https://i.postimg.cc/J7yhHmv3/07-ticket-adobe-upgrade-sev-b-support.png" width="500">
-Logged in as Agent John. Reviewed default properties and set the Priority from Normal to High, SLA to Sev-B (4 hours, 24/7), and assigned the ticket to the Support department.
+Logged in as Agent John. Checked in with end user Ken before working ticket. Reviewed default properties and set the Priority from Normal to High, SLA to Sev-B (4 hours, 24/7), and assigned the ticket to the Support department.
 
 ## Step Three: Ticket Resolution – Agent (John)
 <img src="https://i.postimg.cc/VsSN01pR/08-ticket-adobe-upgrade-resolved-by-john.png" width="500">
-Assigned the ticket to John. Worked the issue to completion and marked the ticket as resolved.
+Assigned the ticket to John. Worked the issue to completion and marked the ticket as resolved before closing.
 
 ---
