@@ -12,12 +12,12 @@ This project demonstrates ticket lifecycle management using osTicket within a si
 
 ### Environments Used
 - Microsoft Azure
+- Remote Desktop
 - Windows Server
 - Windows 10
 
 ### Technologies / Services Used
 - osTicket
-- Active Directory (integration context)
 - Azure Virtual Machines
 ---
 
@@ -26,86 +26,38 @@ This project demonstrates ticket lifecycle management using osTicket within a si
 # Scenario 1 – Online Banking System Down (SEV-A)
 
 ## Ticket Created – End User (Karen)
-
-"The entire mobile/online banking system is down."
-
 <img src="https://i.postimg.cc/G90VHvVT/01-ticket-online-banking-created-karen.png" width="500">
-
----
+Logged in as the end user Karen and created a new ticket stating that the entire mobile and online banking system was down. The ticket was submitted into the system.
 
 ## Default Ticket Properties – Agent (John)
-
-Observed:
-- Priority
-- Department
-- SLA
-- Assigned To
-
 <img src="https://i.postimg.cc/V5ypdXpC/02-ticket-online-banking-default-properties-john.png" width="500">
-
----
+Logged in as Agent John and opened the ticket. Observed the default priority, department, SLA, and assignment settings before making changes.
 
 ## SLA & Department Assignment
-
-Configured:
-- SLA: **Sev-A (1 hour, 24/7)**
-- Department: **Online Banking**
-
 <img src="https://i.postimg.cc/gr9Qn3Q6/03-ticket-online-banking-sev-a-online-banking.png" width="500">
-
----
+Edited the ticket properties. Set the SLA to Sev-A (1 hour, 24/7) and changed the department to Online Banking, then saved the configuration.
 
 ## Escalation Behavior
-
-After escalation, the ticket became inaccessible due to permission restrictions tied to department and SLA configuration.
-
 <img src="https://i.postimg.cc/Th8FpnFL/04-ticket-online-banking-inaccessible-john.png" width="500">
-
-Admin access was required to grant visibility.
-
----
+Attempted to access the ticket again as John. Observed that the ticket became inaccessible due to department-based permission restrictions after escalation.
 
 ## Ticket Resolution – Agent (Jane)
 
 <img src="https://i.postimg.cc/vDRkc5kn/05-ticket-online-banking-resolved-by-jane.png" width="500">
+Logged in as Agent Jane. Worked the escalated ticket to completion and marked it as resolved.
 
 ---
 
 # Scenario 2 – Adobe Upgrade Request (SEV-B)
-
-## Ticket Created – End User
-
-"Accounting department needs Adobe upgrade, broken."
-
 <img src="https://i.postimg.cc/s1Fqv5qS/06-ticket-adobe-upgrade-created-enduser-ken.png" width="500">
-
----
+Logged in as the end user and created a ticket stating that the accounting department needed an Adobe upgrade.
 
 ## SLA & Department Assignment
-
-Configured:
-- SLA: **Sev-B (4 hours, 24/7)**
-- Department: **Support**
-
 <img src="https://i.postimg.cc/J7yhHmv3/07-ticket-adobe-upgrade-sev-b-support.png" width="500">
-
----
+Logged in as Agent John. Reviewed default properties and set the SLA to Sev-B (4 hours, 24/7) and assigned the ticket to the Support department.
 
 ## Ticket Resolution – Agent (John)
-
 <img src="https://i.postimg.cc/VsSN01pR/08-ticket-adobe-upgrade-resolved-by-john.png" width="500">
-
----
-
-# Scenario 3 – CFO Laptop Failure (SEV-B)
-
-Ticket:
-"CFO’s laptop will no longer turn on."
-
-Configured:
-- SLA: **Sev-B (4 hours, 24/7)**
-- Department: **Support**
-
-Worked to completion by assigned agent.
+Assigned the ticket to John. Worked the issue to completion and marked the ticket as resolved.
 
 ---
