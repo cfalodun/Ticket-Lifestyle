@@ -22,7 +22,9 @@ This project demonstrates ticket lifecycle management using osTicket within a si
 ---
 
 # Demonstration
-
+I began by signing in to the Azure Portal (portal.azure.com) and navigating to Virtual Machines from the left menu. I selected the virtual machine used for the osTicket setup and opened its Overview page to copy the Public IP address. I then used Remote Desktop (RDP) to connect to the VM with the administrator credentials. Once inside the VM, I opened a web browser and entered http://localhost/osTicket
+ in the address bar, which loaded the osTicket setup page. I then followed the installation prompts, entered the help desk information, and configured the MySQL database. After the installation was completed, both the Admin/Agent panel and the End User osTicket portal were available for managing and submitting support tickets.
+ 
 # Scenario 1 – Online Banking System Down (SEV-A)
 
 ## Step One: Ticket Created – End User (Karen)
